@@ -37,7 +37,8 @@ export const Listagem = () => {
             setListaDeBebidas(data)
             setBebidasAtuais(data)
         }
-        if(listaDeBebidas.length < 1){
+
+        if (listaDeBebidas.length < 1) {
             fetchData()
         }
     }, [])
@@ -53,10 +54,10 @@ export const Listagem = () => {
                 onChange={handleChange}
                 pesquisar={filtrarBebidas}
                 filtrarBebidas={filtrarBebidas} />
-            <Bebidas 
-                itens={bebidasAtuais} 
-                removerBebida={(bebida) => removerBebida(bebida.id)}/>
-            
+            <Bebidas
+                itens={bebidasAtuais}
+                removerBebida={(bebida) => removerBebida(bebida.id)} />
+
         </>
     )
 }

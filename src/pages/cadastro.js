@@ -3,8 +3,8 @@ import { FormularioDeCadastro } from '../components/formularioDeCadastro'
 
 export const Cadastro = () => {
     return (
-         <>
-            <FormularioDeCadastro  />
+        <>
+            <FormularioDeCadastro />
         </>
     )
 }

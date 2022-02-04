@@ -2,9 +2,9 @@ import { createGlobalStyle } from 'styled-components'
 import { Provider } from './context';
 import { AppRoutes } from './pages/routes';
 
-function App () {
+function App() {
 
-  
+
   return (
     <>
       <GlobalStyle />

@@ -8,13 +8,13 @@ import { Cadastro } from "./cadastro";
 import { Listagem } from "./listagem";
 
 
-export function AppRoutes () {
+export function AppRoutes() {
     return (
         <Router>
             <Cabecalho />
             <Routes>
-                <Route path='/' element={<Listagem />}/>
-                <Route path='/cadastro' element={<Cadastro />}/>
+                <Route path='/' element={<Listagem />} />
+                <Route path='/cadastro' element={<Cadastro />} />
             </Routes>
         </Router>
     )

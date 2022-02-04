@@ -8,6 +8,7 @@ export const Section = styled.section`
     align-items: center;
 
 
+
     h2 {
         margin: 15px 0;
     }
@@ -22,7 +23,7 @@ export const Section = styled.section`
     button {
         padding: 20px 56px;
         margin-top: 10px;
-        background-color:  red;
+        background-color:  #ef5350;
         border: 1px solid black;
         color: white;
         border-radius: 5px;

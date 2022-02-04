@@ -6,7 +6,7 @@ export const Header = styled.header`
     align-items: center;
     margin: auto;
     padding: 10px;
-    background-color: red;
+    background-color: #ef5350;
     color: white;
 
     h2, li {
@@ -29,7 +29,7 @@ export const Header = styled.header`
     }
 
     li:hover a{
-        color: red;
+        color: #ef5350;
     }
 
     @media(max-width: 525px){
