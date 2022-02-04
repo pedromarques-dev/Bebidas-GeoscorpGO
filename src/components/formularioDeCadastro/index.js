@@ -11,7 +11,11 @@ export const FormularioDeCadastro = () => {
 
 
     function adicionarBebida() {
-        if(nome.length > 0 && descricao.length > 0){
+        if(nome.length === 0 && descricao.length === 0) {
+            alert('Preencha todos os campos para realizar cadastro')
+            return false;
+        }
+        
             setListaDeBebidas([
                 ...listaDeBebidas,
                 { id: key++, image_url: 'http://via.placeholder.com/100x150', name: nome, description: descricao }
@@ -19,10 +23,7 @@ export const FormularioDeCadastro = () => {
             setNome('')
             setDescricao('')
             alert('Bebida adicionada com sucesso 😀')
-        } else {
-            alert('Preencha todos os campos para realizar cadastro')
-            return false;
-        }
+
     }
 
     return (

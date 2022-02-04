@@ -23,7 +23,6 @@ export const Listagem = () => {
         })
 
         setBebidasAtuais(bebidasFiltradas)
-        setBusca('')
     }
 
     function removerBebida(bebida) {
