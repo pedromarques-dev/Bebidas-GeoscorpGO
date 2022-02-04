@@ -1,16 +1,25 @@
 # Projeto GeoscorpGO
 
-## Sobre
-  O projeto vem de uma startup chamada GeoscorpGO e é utilizado como desafio para novos integrantes na empresa. 
-
 ## Tabela do conteúdo
 
-   * [Sobre](#Sobre)
    * [Tabela de Conteudo](#tabela-de-conteudo)
+   * [Como usar](#Como-usar)
+   * [Sobre](#Sobre)
    * [Status](#status)
    * [Objetivo](#objetivo)
    * [Tecnologias](#tecnologias)
    * [Acesse o site](#acesse-o-site)
+
+## Como usar
+ Para utilizar os arquivos do projeto an sua maquina, você deve seguir os passos abaixos:
+
+### `git clone <url do repositorio>`
+### `cd <nome-da-pasta>`
+### `npm install`
+### `npm start`
+
+## Sobre
+  O projeto vem de uma startup chamada GeoscorpGO e é utilizado como desafio para novos integrantes na empresa. 
 
 ## Status
  
