@@ -7,7 +7,7 @@ export const FormularioDeCadastro = () => {
     const { listaDeBebidas, setListaDeBebidas } = React.useContext(Context)
     const [nome, setNome] = React.useState('')
     const [descricao, setDescricao] = React.useState('')
-    let key = listaDeBebidas.length
+    let key = listaDeBebidas.length + 1
 
     function adicionarBebida() {
         if (nome.length === 0 || descricao.length === 0) {
@@ -31,7 +31,6 @@ export const FormularioDeCadastro = () => {
                 <input
                     type='text'
                     value={nome}
-                    onKeyDown={(e) => console.log(e)}
                     onChange={(e) => { setNome(e.target.value) }} />
                 <h2>Descrição:</h2>
                 <input

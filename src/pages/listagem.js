@@ -55,7 +55,9 @@ export const Listagem = () => {
                 filtrarBebidas={filtrarBebidas} />
             <Bebidas
                 itens={bebidasAtuais}
-                removerBebida={(bebida) => removerBebida(bebida.id)} />
+                removerBebida={(bebida) => {
+                    removerBebida(bebida.id)
+                }} />
         </>
     )
 }
