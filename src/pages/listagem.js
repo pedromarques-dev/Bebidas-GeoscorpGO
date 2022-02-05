@@ -56,7 +56,6 @@ export const Listagem = () => {
             <Bebidas
                 itens={bebidasAtuais}
                 removerBebida={(bebida) => removerBebida(bebida.id)} />
-
         </>
     )
 }

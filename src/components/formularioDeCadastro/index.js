@@ -9,21 +9,19 @@ export const FormularioDeCadastro = () => {
     const [descricao, setDescricao] = React.useState('')
     let key = listaDeBebidas.length
 
-
     function adicionarBebida() {
-        if(nome.length === 0 && descricao.length === 0) {
+        if (nome.length === 0 || descricao.length === 0) {
             alert('Preencha todos os campos para realizar cadastro')
             return false;
         }
-        
-            setListaDeBebidas([
-                ...listaDeBebidas,
-                { id: key++, image_url: 'http://via.placeholder.com/100x150', name: nome, description: descricao }
-            ])
-            setNome('')
-            setDescricao('')
-            alert('Bebida adicionada com sucesso 😀')
 
+        setListaDeBebidas([
+            ...listaDeBebidas,
+            { id: key++, image_url: 'http://via.placeholder.com/100x150', name: nome, description: descricao }
+        ])
+        setNome('')
+        setDescricao('')
+        alert('Bebida adicionada com sucesso 😀')
     }
 
     return (

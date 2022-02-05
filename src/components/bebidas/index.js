@@ -12,7 +12,6 @@ export const Bebidas = ({ itens, removerBebida }) => {
 
     return (
         <Section>
-
             {itens.length === 0 && <h1>Nao contem bebidas na lista</h1>}
             {
                 itens.map((bebida, index) =>

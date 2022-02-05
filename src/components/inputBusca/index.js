@@ -16,7 +16,10 @@ export const InputBusca = ({ busca, onChange, pesquisar, filtrarBebidas }) => {
                 type='search'
                 placeholder="Pesquisar..." />
 
-            <button onClick={pesquisar}><i className="fas fa-search"></i></button>
+            <button
+                onClick={pesquisar}>
+                <i className="fas fa-search"></i>
+            </button>
         </Pesquisa>
     )
 }
