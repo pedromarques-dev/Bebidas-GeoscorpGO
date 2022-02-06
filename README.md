@@ -8,7 +8,6 @@
    * [Status](#status)
    * [Objetivo](#objetivo)
    * [Tecnologias](#tecnologias)
-   * [Acesse o site](#acesse-o-site)
 
 ## Como usar
  Para utilizar os arquivos do projeto an sua maquina, você deve seguir os passos abaixos:
@@ -50,7 +49,3 @@
  * GIT
  * Integração com API
 
-## Acessando o site
-
-Para acessar o site, clique no link abaixo:
-<a href= "https://pedromarques-dev.github.io/Bebidas-GeoscorpGO/" target= "_blank">Projeto GeoscorpGO</a>
