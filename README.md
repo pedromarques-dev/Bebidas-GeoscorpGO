@@ -13,8 +13,8 @@
 ## Como usar
  Para utilizar os arquivos do projeto an sua maquina, você deve seguir os passos abaixos:
 
-### `git clone <url do repositorio>`
-### `cd <nome-da-pasta>`
+### `git clone https://github.com/pedromarques-dev/Bebidas-GeoscorpGO.git`
+### `cd bebidas-geoscorp`
 ### `npm install`
 ### `npm start`
 
