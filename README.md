@@ -8,6 +8,7 @@
    * [Status](#status)
    * [Objetivo](#objetivo)
    * [Tecnologias](#tecnologias)
+   * [Acessando o site](#acessando-o-site)
 
 ## Como usar
  Para utilizar os arquivos do projeto an sua maquina, você deve seguir os passos abaixos:
@@ -49,3 +50,7 @@
  * GIT
  * Integração com API
 
+## Acessando o site
+
+  Para acessar o site, clique em: 
+  <a href='https://bebidas-geoscorp-go.vercel.app/' target='_blank' >Bebidas GeoscorpGO</a>
